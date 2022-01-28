@@ -18,9 +18,10 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <h1>Coin Market</h1>
+    <div className="container">
+      <div className='row'>
       <TableCoins coins= {coins} />
+      </div>
     </div>
   );
 }
