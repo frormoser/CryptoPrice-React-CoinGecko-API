@@ -13,7 +13,7 @@ const TableCoins = ({ coins, search }) => {
  
   return (
     <table className="table table-dark mt-4 table-hover">
-      <thead>
+      <thead >
         <tr>
           {titles.map((title, index) => (
             <td key={index}>{title}</td>
